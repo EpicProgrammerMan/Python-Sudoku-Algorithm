@@ -2,6 +2,7 @@
 
 
 Summary:
+
 A short python program that can output the solution of a given solvable sudoku puzzle
 
 Using a series of logical algorithms and a bit of brute force, this program is able to solve just about any solvable sudoku puzzle.
@@ -12,6 +13,7 @@ The "puzzles" file is borrowed from grantm's giant text file of diabolical-diffi
 
 
 Usage:
+
 When using the program, you can either:
 
 1. Input your own custom sudoku puzzle as a 81-digit string.
@@ -22,6 +24,7 @@ When you command the program to solve a sudoku, you may choose either to see jus
 
 
 Logic:
+
 The algorithm uses several different logical rules to solve the puzzles. These rules were determined using the basic rules of sudoku, with each row, column, and 3x3 region being required to contain exactly 1 of every 1-9 value.
 
 The algorithm uses a "confusion" value to increase solving speed. At confusion 0, it applies the fastest and most broadly-applicable rules first. If it cannot make any progress through those, the "confusion" counter increases, meaning it will apply more complex rules to the puzzle. If the logical rules are all unsuccessful, it will then attempt to solve the sudoku through sheer brute force. If at any point it makes some amount of progress, its confusion will reset, as it is likely that the simpler rules may be able to make further progress.
