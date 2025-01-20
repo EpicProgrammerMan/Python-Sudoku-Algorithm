@@ -1,6 +1,7 @@
 # Python-Sudoku-Algorithm
 
 
+
 Summary:
 
 A short python program that can output the solution of a given solvable sudoku puzzle
@@ -12,6 +13,7 @@ The solutions for those puzzles were written into another file (named "solutions
 The "puzzles" file is borrowed from grantm's giant text file of diabolical-difficulty puzzles: https://github.com/grantm/sudoku-exchange-puzzle-bank
 
 
+
 Usage:
 
 When using the program, you can either:
@@ -21,6 +23,7 @@ When using the program, you can either:
 3. Tell the program to read from the puzzles file and write the solutions to the "solutions" text file. This file is already full; this is what I used to fill it out. If one were to erase any number of lines from the end of the solutions file, they could use this function to fill the rest of it out.
 
 When you command the program to solve a sudoku, you may choose either to see just the results of the whole process, the resulting solution for every inputted puzzle, or to see the full incremental process of solving each puzzle.
+
 
 
 Logic:
