@@ -1,32 +1,26 @@
 # Python-Sudoku-Algorithm
 
-
-
-Summary:
+## Summary:
 
 A short python program that can output the solution of a given solvable sudoku puzzle
 
 Using a series of logical algorithms and a bit of brute force, this program is able to solve just about any solvable sudoku puzzle.
-To prove its effectiveness, it has been tested with a list of 100,000+ difficult puzzles (named "diabolical.txt").
-The solutions for those puzzles were written into another file (named "solutions.txt").
+
+To prove its effectiveness, it has been tested with a list of 100,000+ difficult puzzles (contained in "diabolical.txt"). The solutions for those puzzles were written into another file (contained in "solutions.txt").
 
 The "puzzles" file is borrowed from grantm's giant text file of diabolical-difficulty puzzles: https://github.com/grantm/sudoku-exchange-puzzle-bank
 
-
-
-Usage:
+## Usage:
 
 When using the program, you can either:
 
-1. Input your own custom sudoku puzzle as a 81-digit string.
+1. Input your own custom sudoku puzzle as an 81-digit string.
 2. Tell the program to solve a specified range of puzzles from the attached puzzles file.
 3. Tell the program to read from the puzzles file and write the solutions to the "solutions" text file. This file is already full; this is what I used to fill it out. If one were to erase any number of lines from the end of the solutions file, they could use this function to fill the rest of it out.
 
 When you command the program to solve a sudoku, you may choose either to see just the results of the whole process, the resulting solution for every inputted puzzle, or to see the full incremental process of solving each puzzle.
 
-
-
-Logic:
+## Logic:
 
 The algorithm uses several different logical rules to solve the puzzles. These rules were determined using the basic rules of sudoku, with each row, column, and 3x3 region being required to contain exactly 1 of every 1-9 value.
 
