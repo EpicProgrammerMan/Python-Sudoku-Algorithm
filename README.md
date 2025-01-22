@@ -8,7 +8,7 @@ Using a series of logical algorithms and a bit of brute force, this program is a
 
 To prove its effectiveness, it has been tested with a list of 100,000+ difficult puzzles (contained in "diabolical.txt"). The solutions for those puzzles were written into another file (contained in "solutions.txt").
 
-The "puzzles" file is borrowed from grantm's giant text file of diabolical-difficulty puzzles: https://github.com/grantm/sudoku-exchange-puzzle-bank
+The "diabolical" file is borrowed from grantm's giant text file of diabolical-difficulty puzzles: https://github.com/grantm/sudoku-exchange-puzzle-bank
 
 ## Usage:
 
