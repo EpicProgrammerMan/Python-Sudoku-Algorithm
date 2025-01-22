@@ -10,6 +10,8 @@ To prove its effectiveness, it has been tested with a list of 100,000+ difficult
 
 The "diabolical" file is borrowed from grantm's giant text file of diabolical-difficulty puzzles: https://github.com/grantm/sudoku-exchange-puzzle-bank
 
+It was also tested on the alleged "hardest sudoku ever" by Arto Inkala: https://abcnews.go.com/blogs/headlines/2012/06/can-you-solve-the-hardest-ever-sudoku
+
 ## Usage:
 
 When using the program, you can either:
